@@ -1,4 +1,4 @@
-This project includes code for a simple portfolio website, available at: [https://constcash.com](https://constcash.com)
+This project includes code for a ConstCash website, available at: [https://constcash.com](https://constcash.com)
 
 ## Getting Started
 

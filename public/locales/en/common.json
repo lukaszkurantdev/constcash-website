@@ -1,7 +1,9 @@
 {
   "footer": {
-    "rights": " Fully made by Lukasz Kurant, All rights reserved ",
-    "constcash": "ConstCash",
+    "rights1": " Fully made by ",
+    "rights2": "Lukasz Kurant",
+    "rights3": ", All rights reserved ",
+    "privacyPolicy": "Privacy policy",
     "cookies": "Cookies",
     "contact": "Contact"
   },
