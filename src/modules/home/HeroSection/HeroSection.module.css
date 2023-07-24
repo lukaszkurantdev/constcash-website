@@ -59,7 +59,6 @@
   transition: opacity 100ms ease-out 100ms;
   cursor: pointer;
 }
-
 .appStoreIcon:hover {
   opacity: 0.6;
 }

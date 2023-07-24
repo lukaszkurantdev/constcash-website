@@ -3,9 +3,9 @@ import Link from "next/link";
 
 import styles from "./ContactSection.module.css";
 
-import { Button } from "@/components/Button/Button";
+import AppStoreIcon from "@/assets/icons/AppStore.svg";
 import { Typography } from "@/components/Typography/Typography";
-import { Links } from "@/constants/Links";
+import { APP_STORE_LINK } from "../HeroSection/HeroSection.constants";
 
 export const ContactSection = () => {
   const { t } = useTranslation("home", { keyPrefix: "contact" });
@@ -13,16 +13,16 @@ export const ContactSection = () => {
   return (
     <div className={styles.container}>
       <div className={styles.insideContainer}>
-        <div className={styles.particle1} />
-        <div className={styles.particle2} />
-        <div className={styles.particle3} />
-
         <Typography variant="h1" align="center">
           {t("title")}
         </Typography>
         <Typography className={styles.description} align="center">
           {t("description")}
         </Typography>
+
+        <Link href={APP_STORE_LINK}>
+          <AppStoreIcon className={styles.appStoreIcon} />
+        </Link>
       </div>
     </div>
   );
