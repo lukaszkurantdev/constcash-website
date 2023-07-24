@@ -1,10 +1,10 @@
 .mainContainer {
   background-color: var(--color-gray-100);
-  min-height: calc(100vh - 115px - 115px);
+  min-height: calc(100vh - 115px - 80px);
 }
 
 .container {
-  max-width: var(--container-width);
+  max-width: var(--container-medium-width);
   padding: var(--space-10) var(--space-10);
   margin: 0 auto;
   display: flex;
@@ -25,8 +25,8 @@
   row-gap: var(--space-10);
 }
 
-.description {
-  max-width: var(--container-medium-width);
+.title {
+  margin-top: var(--space-10);
 }
 
 .centered {
