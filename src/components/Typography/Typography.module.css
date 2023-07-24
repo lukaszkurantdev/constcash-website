@@ -11,6 +11,7 @@
 
 .h3 {
   font-size: var(--typography-h3);
+  font-weight: 700;
 }
 
 .paragraph {

@@ -13,7 +13,7 @@ import Script from "next/script";
 
 const poppinsFont = Inter({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "700"],
+  weight: ["300", "400", "500", "700", "900"],
 });
 
 const MyApp = ({ Component, pageProps }: AppProps) => {

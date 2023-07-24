@@ -5,6 +5,41 @@
     "description": "Organize your finances, create budgets, achieve goals",
     "cost": "Free, Premium features: $6.99 paid once"
   },
+  "features": {
+    "about": {
+      "title": "Manage budgets.",
+      "header": "Check progress.",
+      "description": "ConstCash is a privacy-oriented personal budget management application.",
+      "privacyDescription": "Your data is exclusively yours and no one else has access to it. You can enable backups using iCloud or create a local copy of your data, but you are in control!",
+      "moreAboutPrivacy": "You will find more information in the ",
+      "privacyPolicy": "Privacy policy"
+    },
+    "accountsAndCategories": {
+      "title": "Accounts & Categories",
+      "accountsDescription": "Create accounts that keep you informed about the status of your finances in a particular place, such as your wallet, bank account or debts from your friends.",
+      "categoriesDescription": "Categories help organize your income and expenses. Determine how your monthly finances are shaping up so you can more easily control your household budget."
+    },
+    "transactions": {
+      "title": "Transactions",
+      "description": "Transactions are all the income, expenses or transfers you make. They make it easier to control the flow of your money."
+    },
+    "financialGoals": {
+      "title": "Financial goals",
+      "description": "Add a financial goal to motivate yourself to achieve your chosen goals. Control your own progress easily."
+    },
+    "recurringPayments": {
+      "title": "Periodic addition of transactions",
+      "description": "Recurring payments allow you to add frequent transactions at equal intervals. Each payment can be repeated weekly, monthly, quarterly or annually."
+    },
+    "transactionTemplates": {
+      "title": "Conveniently create repeatable transactions",
+      "description": "Transaction templates are used to quickly add frequent transactions."
+    },
+    "budgets": {
+      "title": "Control your spending with budgets",
+      "description": "Budgets help you set limits on transactions in a given category, giving you more control over your spending."
+    }
+  },
   "about": {
     "title": "About me",
     "description1": "I am an experienced developer who specializes in mobile applications, websites and providing other IT solutions. I have five years of commercial experience in the industry, and I always strive to understand my clients' needs and provide quality solutions that exceed their expectations.",

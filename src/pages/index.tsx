@@ -7,6 +7,7 @@ import { HeroSection } from "@/modules/home/HeroSection/HeroSection";
 import { ContactSection } from "@/modules/home/ContactSection/ContactSection";
 import { getServerSideTranslations } from "@/utils/serverSideTranslations";
 import type { ServerSideProps } from "@/types/ServerSideProps";
+import { FeaturesSection } from "@/modules/home/FeaturesSection/FeaturesSection";
 
 export default function Home() {
   const { t } = useTranslation("home");
@@ -17,7 +18,7 @@ export default function Home() {
         <title>{t("headTitle")}</title>
       </Head>
       <HeroSection />
-
+      <FeaturesSection />
       <ContactSection />
     </div>
   );
