@@ -108,6 +108,18 @@ export const FeaturesSection = () => {
         </div>
 
         <div className={styles.column}>
+          <div className={styles.card}>
+            <Typography variant="h3">{t("multiLanguage.title")}</Typography>
+
+            <Typography className={styles.description}>
+              {t("multiLanguage.description")}
+            </Typography>
+
+            <Typography fontSize={40} className={styles.description}>
+              🇬🇧🇵🇱🇫🇷🇩🇪🇪🇸🇮🇹
+            </Typography>
+          </div>
+
           <div
             className={classNames(styles.card, styles.transactionsCard)}
             style={{ backgroundColor: ACCOUNTS_THEME_COLOR }}

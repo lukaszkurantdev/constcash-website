@@ -34,6 +34,10 @@
   font-weight: 600;
 }
 
+.thin {
+  font-weight: 300;
+}
+
 .left {
   text-align: left;
 }

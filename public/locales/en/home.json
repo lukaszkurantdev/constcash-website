@@ -38,6 +38,25 @@
     "budgets": {
       "title": "Control your spending with budgets",
       "description": "Budgets help you set limits on transactions in a given category, giving you more control over your spending."
+    },
+    "multiLanguage": {
+      "title": "Multilingual app",
+      "description": "Use the application in your native language"
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "question1": {
+      "title": "How is data privacy ensured?",
+      "description": "Application data is stored only in the device memory. It is possible to export the data to a file and save it in any place indicated by the user. The application collects only simple analytical and diagnostic data, like error information, device model, system version, etc. We do it only in order to improve application performance. What's more, we take care of the security of access to the application - you can use a pin and authentication with FaceId or TouchID."
+    },
+    "question2": {
+      "title": "Do I need to create an account in the app?",
+      "description": "No, there are no user accounts in the app. All data is kept in the device memory."
+    },
+    "question3": {
+      "title": "Is there a fee for the app?",
+      "description": "The app is free, but a one-time payment (in the amount of $6.99) is required to use all features. Without premium it is not possible to create more than 2 accounts and 2 categories. Once purchased, you will always be able to use all the features of the app."
     }
   },
   "about": {

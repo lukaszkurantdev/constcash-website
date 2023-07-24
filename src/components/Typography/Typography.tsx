@@ -6,7 +6,7 @@ import { TYPOGRAPHY_VARIANTS } from "./Typography.constants";
 
 type TypographyProps = {
   variant?: keyof typeof TYPOGRAPHY_VARIANTS;
-  weight?: "bold" | "medium" | "normal";
+  weight?: "bold" | "medium" | "normal" | "thin";
   align?: "left" | "center" | "right";
   className?: string;
   children?: ReactNode;

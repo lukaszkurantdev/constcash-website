@@ -1,0 +1,29 @@
+.container {
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  position: relative;
+}
+
+.insideContainer {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-13) var(--space-8);
+  max-width: var(--container-width);
+  margin: auto;
+  position: relative;
+}
+
+.questionsContainer {
+  margin-top: var(--space-5);
+  background-color: var(--color-white);
+  border-radius: var(--border-radius-regular);
+}
+
+.questionContainer {
+  border-bottom: 3px solid var(--color-gray-100);
+  padding: var(--space-8);
+}
+
+.description {
+  margin-top: var(--space-5);
+}
