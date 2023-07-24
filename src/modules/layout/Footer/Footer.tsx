@@ -7,6 +7,7 @@ import { CookiesAlert } from "@/components/CookiesAlert/CookiesAlert";
 import { Links } from "@/constants/Links";
 import { Button } from "@/components/Button/Button";
 import { Typography } from "@/components/Typography/Typography";
+import { BETA_LINK, CONTACT_LINK } from "./Footer.constants";
 
 export const Footer = () => {
   const { t } = useTranslation("common", { keyPrefix: "footer" });
@@ -31,10 +32,10 @@ export const Footer = () => {
             <Link href={Links.PrivacyPolicy}>
               <Button title={t("privacyPolicy")} variant="secondary" />
             </Link>
-            <Link href={Links.Cookies}>
-              <Button title={t("cookies")} variant="secondary" />
+            <Link href={BETA_LINK}>
+              <Button title={t("joinBeta")} variant="secondary" />
             </Link>
-            <Link href={""}>
+            <Link href={CONTACT_LINK}>
               <Button title={t("contact")} variant="secondary" />
             </Link>
           </div>

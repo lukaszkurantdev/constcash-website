@@ -1,8 +1,8 @@
 import Head from "next/head";
 import { useTranslation } from "next-i18next";
-import classNames from "classnames";
 import ReactHtmlParser from "html-react-parser";
 import Image from "next/image";
+import Link from "next/link";
 
 import styles from "./styles.module.css";
 
@@ -10,11 +10,10 @@ import { Typography } from "@/components/Typography/Typography";
 import type { ServerSideProps } from "@/types/ServerSideProps";
 import { getServerSideTranslations } from "@/utils/serverSideTranslations";
 import { LOGO_SIZE } from "@/modules/home/HeroSection/HeroSection.constants";
-import Link from "next/link";
 import { Links } from "@/constants/Links";
 
-export default function Cookies() {
-  const { t } = useTranslation("cookies");
+export default function PrivacyPolicy() {
+  const { t } = useTranslation("privacyPolicy");
 
   return (
     <div className={styles.mainContainer}>
@@ -49,7 +48,9 @@ export default function Cookies() {
 }
 
 export async function getStaticProps({ locale }: ServerSideProps) {
-  const translations = await getServerSideTranslations(locale, ["cookies"]);
+  const translations = await getServerSideTranslations(locale, [
+    "privacyPolicy",
+  ]);
 
   return {
     props: {
