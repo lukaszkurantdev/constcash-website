@@ -1,12 +1,11 @@
 .h1 {
   font-size: var(--typography-h1);
-  font-family: var(--typography-font-tiempos);
-  font-weight: 300;
+  font-weight: 500;
+  line-height: 55px;
 }
 
 .h2 {
   font-size: var(--typography-h2);
-  font-family: var(--typography-font-tiempos);
   font-weight: 300;
 }
 

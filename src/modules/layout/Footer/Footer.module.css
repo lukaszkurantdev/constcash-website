@@ -23,7 +23,7 @@
 
 .mainHeader {
   font-size: var(--typography-h3);
-  font-family: var(--typography-font-tiempos);
+  font-family: var(--typography-font-poppins);
 }
 
 .particle {

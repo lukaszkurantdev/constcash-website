@@ -12,17 +12,14 @@
   --color-danger: #de831a;
 
   /* typography */
-  --typography-h0: 72px;
-  --typography-h1: 30px;
-  --typography-h2: 25px;
-  --typography-h3: 20px;
+  --typography-h0: 64px;
+  --typography-h1: 26px;
+  --typography-h2: 20px;
+  --typography-h3: 18px;
 
   --typography-paragraph: 16px;
   --typography-small-paragraph: 14px;
   --typography-x-small-paragraph: 12px;
-
-  --typography-font-tiempos: "Tiempos";
-  --typography-font-lato: "Lato";
 
   /* space */
   --space-1: 2px;

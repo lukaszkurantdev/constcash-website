@@ -7,11 +7,14 @@ import { Partytown } from "@builder.io/partytown/react";
 
 import styles from "./styles.module.css";
 
-import { Lato } from "@next/font/google";
+import { Inter } from "@next/font/google";
 import { Footer } from "@/modules/layout/Footer/Footer";
 import Script from "next/script";
 
-const latoFont = Lato({ subsets: ["latin"], weight: ["400", "700"] });
+const poppinsFont = Inter({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "700"],
+});
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   const { t } = useTranslation("common", { keyPrefix: "meta" });
@@ -40,8 +43,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
         <Partytown debug={true} forward={["dataLayer.push"]} />
       </Head>
 
-      <main className={classNames(styles.main, latoFont.className)}>
-        <div className={styles.placeholder} />
+      <main className={classNames(styles.main, poppinsFont.className)}>
         <Component {...pageProps} />
         <Footer />
       </main>

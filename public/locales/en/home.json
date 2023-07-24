@@ -1,22 +1,9 @@
 {
   "headTitle": "Fullstack freelance developer – Lukasz Kurant",
   "hero": {
-    "title": "Quality through",
-    "titleWord": {
-      "professionalism": "professionalism",
-      "knowledge": "knowledge",
-      "attractiveDesign": "attractive design",
-      "bestTools": "best tools",
-      "experience": "experience",
-      "commitment": "commitment"
-    },
-    "header": "Hello, I'm Lukasz Kurant",
-    "description1": "I'm a ",
-    "description2": "freelance full-stack programmer",
-    "description3": " with passion, experience and education. In my work I create simple and advanced mobile applications and websites. I help in project analysis, UI/UX creation, programming, testing, up to maintenance. I am happy to share my knowledge and learn from others.",
-    "button": "Hire me",
-    "availableToWork1": "Need a consultation? ",
-    "availableToWork2": "Contact me"
+    "title": "App that can help you to manage your personal finances.",
+    "description": "Organize your finances, create budgets, achieve goals",
+    "cost": "Free, Premium features: $6.99 paid once"
   },
   "about": {
     "title": "About me",

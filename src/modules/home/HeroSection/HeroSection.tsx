@@ -1,77 +1,19 @@
 import { useTranslation } from "next-i18next";
-import { useEffect, useState } from "react";
-import { Fade } from "react-awesome-reveal";
-import TextTransition from "react-text-transition";
-import Image from "next/image";
-import Link from "next/link";
 
-import {
-  AVATAR_SIZE,
-  TITLE_TRANSITION_INTERVAL,
-  TITLE_WORDS_KEYS,
-  TRANSITION_SPRING_CONFIG,
-} from "./HeroSection.constants";
+import Image from "next/image";
 import styles from "./HeroSection.module.css";
 
-import { Button } from "@/components/Button/Button";
 import { Typography } from "@/components/Typography/Typography";
-
-const HeroTitle = () => {
-  const { t } = useTranslation("home", { keyPrefix: "hero" });
-
-  const [index, setIndex] = useState(0);
-
-  useEffect(() => {
-    const intervalId = setInterval(
-      () => setIndex((index) => index + 1),
-      TITLE_TRANSITION_INTERVAL
-    );
-    return () => clearTimeout(intervalId);
-  }, []);
-
-  const titleWords = TITLE_WORDS_KEYS.map((word) => t(`titleWord.${word}`));
-
-  return (
-    <TextTransition
-      springConfig={TRANSITION_SPRING_CONFIG}
-      direction="down"
-      className="text-center xl:text-left"
-    >
-      {titleWords[index % titleWords.length]}
-    </TextTransition>
-  );
-};
+import AppStoreIcon from "@/assets/icons/AppStore.svg";
+import { APP_STORE_LINK, LOGO_SIZE } from "./HeroSection.constants";
+import Link from "next/link";
 
 export const HeroSection = () => {
   const { t } = useTranslation("home", { keyPrefix: "hero" });
 
   return (
     <div className={styles.container}>
-      <div className={styles.availableContainer}>
-        <div className={styles.availableIconContainer}></div>
-        <Typography>{t("availableToWork1")}</Typography>
-      </div>
-
       <div className={styles.insideContainer}>
-        <div className={styles.textContainer}>
-          <Typography variant="h1" fontSize={50}>
-            {t("title")}
-            <HeroTitle />
-          </Typography>
-
-          <Typography variant="h2" className={styles.header}>
-            {t("header")}
-          </Typography>
-          <Typography>
-            {t("description1")}
-            <span className={styles.primaryText}>{t("description2")}</span>
-            {t("description3")}
-          </Typography>
-
-          <Link href={""} aria-label="contact">
-            <Button className={styles.button} title={t("button")} />
-          </Link>
-        </div>
         <div className={styles.column}>
           {/* <Image
             alt="avatar"
@@ -80,6 +22,29 @@ export const HeroSection = () => {
             priority
             {...AVATAR_SIZE}
           /> */}
+        </div>
+
+        <div className={styles.textContainer}>
+          <Image
+            alt="constcash-logo"
+            src="/images/logos/constcash-dark.webp"
+            className={styles.logo}
+            {...LOGO_SIZE}
+          />
+
+          <Typography variant="h1" fontSize={38}>
+            {t("title")}
+          </Typography>
+
+          <Typography variant="h2" className={styles.description}>
+            {t("description")}
+          </Typography>
+
+          <Link href={APP_STORE_LINK}>
+            <AppStoreIcon className={styles.appStoreIcon} />
+          </Link>
+
+          <Typography>{t("cost")}</Typography>
         </div>
       </div>
     </div>
