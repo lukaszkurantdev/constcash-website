@@ -14,7 +14,7 @@ export const ContactSection = () => {
 
   return (
     <div className={styles.container}>
-      <Particle3 />
+      <Particle3 className={styles.particle3} />
       <div className={styles.insideContainer}>
         <Typography variant="h1" align="center">
           {t("title")}
@@ -27,7 +27,7 @@ export const ContactSection = () => {
           <AppStoreIcon className={styles.appStoreIcon} />
         </Link>
       </div>
-      <Particle4 />
+      <Particle4 className={styles.particle4} />
     </div>
   );
 };

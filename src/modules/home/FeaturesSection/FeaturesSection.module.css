@@ -86,3 +86,21 @@
   align-self: center;
   margin-bottom: -50px;
 }
+
+@media (max-width: 1000px) {
+  .insideContainer {
+    padding: var(--space-8) var(--space-8);
+    flex-direction: column;
+    row-gap: var(--space-8);
+  }
+
+  .card {
+    padding: var(--space-8);
+    overflow: hidden;
+  }
+
+  .transactionsImage {
+    width: 250px;
+    height: 200px;
+  }
+}

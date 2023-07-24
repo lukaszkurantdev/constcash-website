@@ -30,16 +30,21 @@
 .column {
   flex: 1;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 @media (max-width: 1000px) {
   .insideContainer {
     padding: var(--space-8) var(--space-8);
+    column-gap: var(--space-10);
   }
 
   .textContainer {
     flex: 1.5;
+  }
+
+  .particle1 {
+    visibility: hidden;
   }
 }
 
@@ -47,6 +52,17 @@
   .insideContainer {
     flex-direction: column;
     padding: var(--space-10) var(--space-8) 0;
+  }
+  .image {
+    height: 240px;
+    width: 120px;
+    margin-bottom: var(--space-10);
+  }
+  .particle2 {
+    opacity: 0.5;
+  }
+  .textContainer {
+    margin-bottom: var(--space-10);
   }
 }
 

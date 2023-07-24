@@ -1,7 +1,7 @@
 .h1 {
   font-size: var(--typography-h1);
   font-weight: 500;
-  line-height: 55px;
+  line-height: 45px;
 }
 
 .h2 {

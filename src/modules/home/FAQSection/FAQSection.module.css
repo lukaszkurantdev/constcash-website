@@ -27,3 +27,9 @@
 .description {
   margin-top: var(--space-5);
 }
+
+@media (max-width: 1000px) {
+  .insideContainer {
+    padding: var(--space-8) var(--space-8);
+  }
+}

@@ -29,6 +29,7 @@ export const HeroSection = () => {
             src="/images/helpers/main.webp"
             priority
             {...MAIN_RENDER_SIZE}
+            className={styles.image}
           />
         </div>
 

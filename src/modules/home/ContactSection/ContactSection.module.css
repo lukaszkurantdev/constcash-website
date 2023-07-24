@@ -29,3 +29,12 @@
 .appStoreIcon:hover {
   color: var(--color-primary);
 }
+
+@media (max-width: 1000px) {
+  .particle3 {
+    display: none;
+  }
+  .particle4 {
+    display: none;
+  }
+}

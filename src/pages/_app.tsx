@@ -38,6 +38,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@site" />
         <meta name="twitter:creator" content="@handle" />
+        <meta name="apple-itunes-app" content="app-id=1586637609" />
         <link rel="canonical" href={t<string>("ogUrl")} />
 
         <Partytown debug={true} forward={["dataLayer.push"]} />
