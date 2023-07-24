@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6878a532-83b7-4323-a630-906f3658713b/deploy-status)](https://app.netlify.com/sites/marvelous-caramel-b412ab/deploys)
+
 This project includes code for a ConstCash website, available at: [https://constcash.com](https://constcash.com)
 
 ## Getting Started
