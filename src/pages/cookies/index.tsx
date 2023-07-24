@@ -1,11 +1,11 @@
 import Head from "next/head";
 import { useTranslation } from "next-i18next";
-import classNames from "classnames";
 import ReactHtmlParser from "html-react-parser";
 import Image from "next/image";
 
 import styles from "./styles.module.css";
 
+import Particle1 from "@/assets/illustrations/Particle1.svg";
 import { Typography } from "@/components/Typography/Typography";
 import type { ServerSideProps } from "@/types/ServerSideProps";
 import { getServerSideTranslations } from "@/utils/serverSideTranslations";
@@ -42,6 +42,8 @@ export default function Cookies() {
             {t("title")}
           </Typography>
           <Typography opacity>{ReactHtmlParser(t("description"))}</Typography>
+
+          <Particle1 />
         </div>
       </div>
     </div>

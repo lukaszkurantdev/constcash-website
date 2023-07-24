@@ -4,6 +4,8 @@ import Link from "next/link";
 import styles from "./ContactSection.module.css";
 
 import AppStoreIcon from "@/assets/icons/AppStore.svg";
+import Particle3 from "@/assets/illustrations/Particle3.svg";
+import Particle4 from "@/assets/illustrations/Particle4.svg";
 import { Typography } from "@/components/Typography/Typography";
 import { APP_STORE_LINK } from "../HeroSection/HeroSection.constants";
 
@@ -12,6 +14,7 @@ export const ContactSection = () => {
 
   return (
     <div className={styles.container}>
+      <Particle3 />
       <div className={styles.insideContainer}>
         <Typography variant="h1" align="center">
           {t("title")}
@@ -24,6 +27,7 @@ export const ContactSection = () => {
           <AppStoreIcon className={styles.appStoreIcon} />
         </Link>
       </div>
+      <Particle4 />
     </div>
   );
 };

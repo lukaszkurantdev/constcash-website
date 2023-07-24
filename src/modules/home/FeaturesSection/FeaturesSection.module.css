@@ -6,7 +6,7 @@
 .insideContainer {
   display: flex;
   justify-content: space-between;
-  padding: var(--space-10) 0;
+  padding: var(--space-14) 0;
   max-width: var(--container-width);
   margin: auto;
   position: relative;

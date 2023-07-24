@@ -63,7 +63,7 @@ export const FeaturesSection = () => {
 
             <Image
               alt="transactions"
-              src="/images/helpers/transactions.png"
+              src="/images/helpers/transactions.webp"
               className={styles.transactionsImage}
               {...TRANSACTIONS_IMAGE_SIZE}
             />
@@ -80,7 +80,7 @@ export const FeaturesSection = () => {
 
             <Image
               alt="budgets"
-              src="/images/helpers/budgets.png"
+              src="/images/helpers/budgets.webp"
               className={styles.budgetsImage}
               {...BUDGETS_IMAGE_SIZE}
             />
@@ -100,7 +100,7 @@ export const FeaturesSection = () => {
 
             <Image
               alt="transactions-templates"
-              src="/images/helpers/transactions-templates.png"
+              src="/images/helpers/transactions-templates.webp"
               className={styles.transactionsTemplatesImage}
               {...TRANSACTIONS_TEMPLATES_IMAGE_SIZE}
             />
@@ -126,7 +126,7 @@ export const FeaturesSection = () => {
           >
             <Image
               alt="accounts"
-              src="/images/helpers/accounts.png"
+              src="/images/helpers/accounts.webp"
               className={styles.accountsImage}
               {...ACCOUNTS_IMAGE_SIZE}
             />
@@ -154,7 +154,7 @@ export const FeaturesSection = () => {
 
             <Image
               alt="financial-goals"
-              src="/images/helpers/financial-goals.png"
+              src="/images/helpers/financial-goals.webp"
               className={styles.financialGoalsImage}
               {...FINANCIAL_GOALS_IMAGE_SIZE}
             />
@@ -163,7 +163,7 @@ export const FeaturesSection = () => {
           <div className={styles.card}>
             <Image
               alt="recurring-payments"
-              src="/images/helpers/recurring-payments.png"
+              src="/images/helpers/recurring-payments.webp"
               className={styles.recurringPaymentsImage}
               {...RECURRING_PAYMENTS_IMAGE_SIZE}
             />

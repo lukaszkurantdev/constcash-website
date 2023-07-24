@@ -19,6 +19,11 @@
 
 .link {
   text-decoration: underline;
+  transition: color 100ms ease-out 100ms;
+}
+
+.link:hover {
+  color: var(--color-primary);
 }
 
 @media (max-width: 450px) {

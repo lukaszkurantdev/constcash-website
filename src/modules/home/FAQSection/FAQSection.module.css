@@ -14,7 +14,7 @@
 }
 
 .questionsContainer {
-  margin-top: var(--space-5);
+  margin-top: var(--space-8);
   background-color: var(--color-white);
   border-radius: var(--border-radius-regular);
 }

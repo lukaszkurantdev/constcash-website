@@ -6,6 +6,7 @@ import Link from "next/link";
 
 import styles from "./styles.module.css";
 
+import Particle1 from "@/assets/illustrations/Particle1.svg";
 import { Typography } from "@/components/Typography/Typography";
 import type { ServerSideProps } from "@/types/ServerSideProps";
 import { getServerSideTranslations } from "@/utils/serverSideTranslations";
@@ -41,6 +42,8 @@ export default function PrivacyPolicy() {
             {t("title")}
           </Typography>
           <Typography opacity>{ReactHtmlParser(t("description"))}</Typography>
+
+          <Particle1 />
         </div>
       </div>
     </div>

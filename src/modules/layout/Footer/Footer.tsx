@@ -32,7 +32,7 @@ export const Footer = () => {
             <Link href={Links.PrivacyPolicy}>
               <Button title={t("privacyPolicy")} variant="secondary" />
             </Link>
-            <Link href={BETA_LINK}>
+            <Link href={BETA_LINK} target="_blank" rel="noreferrer">
               <Button title={t("joinBeta")} variant="secondary" />
             </Link>
             <Link href={CONTACT_LINK}>

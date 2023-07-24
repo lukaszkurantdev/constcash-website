@@ -1,11 +1,17 @@
 import { useTranslation } from "next-i18next";
-
 import Image from "next/image";
+
 import styles from "./HeroSection.module.css";
 
+import Particle1 from "@/assets/illustrations/Particle1.svg";
+import Particle2 from "@/assets/illustrations/Particle2.svg";
 import { Typography } from "@/components/Typography/Typography";
 import AppStoreIcon from "@/assets/icons/AppStore.svg";
-import { APP_STORE_LINK, LOGO_SIZE } from "./HeroSection.constants";
+import {
+  APP_STORE_LINK,
+  LOGO_SIZE,
+  MAIN_RENDER_SIZE,
+} from "./HeroSection.constants";
 import Link from "next/link";
 
 export const HeroSection = () => {
@@ -13,15 +19,17 @@ export const HeroSection = () => {
 
   return (
     <div className={styles.container}>
+      <Particle1 className={styles.particle1} />
+      <Particle2 className={styles.particle2} />
+
       <div className={styles.insideContainer}>
         <div className={styles.column}>
-          {/* <Image
-            alt="avatar"
-            src="/images/lk2.png"
-            className={styles.image}
+          <Image
+            alt="ConstCash app"
+            src="/images/helpers/main.webp"
             priority
-            {...AVATAR_SIZE}
-          /> */}
+            {...MAIN_RENDER_SIZE}
+          />
         </div>
 
         <div className={styles.textContainer}>
@@ -32,7 +40,7 @@ export const HeroSection = () => {
             {...LOGO_SIZE}
           />
 
-          <Typography variant="h1" fontSize={38}>
+          <Typography variant="h1" weight="bold" fontSize={38}>
             {t("title")}
           </Typography>
 

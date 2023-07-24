@@ -8,10 +8,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--space-18) var(--space-8);
+  padding: var(--space-16) var(--space-8);
   max-width: var(--container-width);
   margin: auto;
   position: relative;
+  column-gap: var(--space-15);
 }
 
 .textContainer {
@@ -28,6 +29,8 @@
 
 .column {
   flex: 1;
+  display: flex;
+  justify-content: end;
 }
 
 @media (max-width: 1000px) {
@@ -56,13 +59,25 @@
 .appStoreIcon {
   margin-top: var(--space-10);
   margin-bottom: var(--space-6);
-  transition: opacity 100ms ease-out 100ms;
+  transition: color 100ms ease-out 100ms;
   cursor: pointer;
 }
 .appStoreIcon:hover {
-  opacity: 0.6;
+  color: var(--color-primary);
 }
 
 .logo {
   margin-bottom: var(--space-8);
+}
+
+.particle1 {
+  position: absolute;
+  right: 192px;
+  top: 80px;
+}
+
+.particle2 {
+  position: absolute;
+  top: 370px;
+  left: -350px;
 }

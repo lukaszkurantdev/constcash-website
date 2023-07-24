@@ -7,13 +7,13 @@ import { Partytown } from "@builder.io/partytown/react";
 
 import styles from "./styles.module.css";
 
-import { Inter } from "@next/font/google";
+import { Nunito_Sans } from "@next/font/google";
 import { Footer } from "@/modules/layout/Footer/Footer";
 import Script from "next/script";
 
-const poppinsFont = Inter({
+const poppinsFont = Nunito_Sans({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "700", "900"],
+  weight: ["300", "400", "700", "900"],
 });
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
