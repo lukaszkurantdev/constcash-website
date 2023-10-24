@@ -1,5 +1,28 @@
 {
-  "headTitle": "Privacy policy – ConstCash",
-  "title": "Privacy policy",
-  "description": "Your data is only yours. We do not collect any data in the application. All data is saved locally on your device, if you want you can create a backup of data and put it where you want. Only you can manage your data. We do not have access to your device's features. We collect only anonymous (analytical and crash) data of app usage.<br /><br />Premium version<br /><br />Premium account may only be used with one iCloud account. After purchase, you can use the app on every iOS device with your account. After one-time payment, you will have access to all premium features and all-new features after updates."
+  "headTitle": "Terms & Privacy policy – ConstCash",
+  "title": "Terms & Privacy policy",
+  "policyTitle": "Privacy policy",
+  "description": "Your data is only yours. We do not collect any data in the application. All data is saved locally on your device, if you want you can create a backup of data and put it where you want. Only you can manage your data. We do not have access to your device's features. We collect only anonymous (analytical and crash) data of app usage.",
+  "termsTitle": "Terms and Conditions",
+  "rules": {
+    "p1": "These Terms and Conditions (\"Terms\", \"Terms and Conditions\") govern your relationship with the ConstCash mobile application (the \"Service\") operated by Mobideca Lukasz Kurant (\"we\", \"us\" or \"our\").<br /><br />Your access to and use of the Service is subject to your acceptance of and compliance with these Terms. These Terms apply to all users and other entities using or accessing the Service. By accessing or using the Service, you agree to be absolutely bound by these Terms. If you do not agree to any of the Terms, you are not entitled to use the Service.",
+    "h2": "1. Payment",
+    "p2": "Certain parts of the Service are billed on a Subscription or One Time Payment basis. Which parts these are is decided at our sole discretion and we reserve the right to change them at any time. All payments are made using the AppStore service. Each purchase is credited directly to your Apple account and can only be used on one iCloud account.",
+    "h3": "1.1 Subscriptions",
+    "p3": "Charges will be billed in advance on a regular monthly basis (\"Billing Cycles\"). At the end of each Billing Cycle, your Subscription will automatically renew under the same terms and conditions unless you choose to cancel it. Cancellation of a Subscription renewal can be done via the Subscriptions management panel in your Apple account.",
+    "h4": "1.2 One-off Lifetime Payment",
+    "p4": "The user can purchase lifetime access to certain parts of the service in the form of a one-off payment.",
+    "h5": "1.3 Fees",
+    "p5": "Mobideca Lukasz Kurant has the right to freely modify the fees for Subscriptions and One-Time Lifetime Payment at its sole discretion at any time.<br />Any changes to the Subscription fees will take effect from the end of the current Billing Cycle. Mobideca Lukasz Kurant agrees to give you at least one month's notice of any changes to the Subscription fees.",
+    "h6": "2. Refunds",
+    "p6": "Unless otherwise provided by law, Subscription or Lifetime Payment fees are non-refundable. Even if a refund would be legally required, the application author does not have the ability to refund the fee. In order to obtain a refund, it is necessary to contact the App Store provider directly.",
+    "h7": "3. Other services",
+    "p7": "Our service may contain links to third-party websites or services that are not owned or controlled by Mobideca Lukasz Kurant.<br />Mobideca Lukasz Kurant has no ability to oversee or take responsibility for the content, privacy policies, or practices of any third party web sites or services. Furthermore, you are aware of and agree that Mobideca Lukasz Kurant shall not be directly or indirectly liable for any damages or losses that arise actually or allegedly from your use of or reliance on such content, products or services available on or through such websites or services.",
+    "h8": "4. Limitation of liability",
+    "p8": "Mobideca Lukasz Kurant and all partners, agents, suppliers and related parties are in no event liable for any indirect, incidental, special, consequential or punitive damages, including among others: loss of profits, data, benefits, goodwill and other intangible losses. Such damages may result from: your access to, use of, or inability to access or use the Service; the conduct or content of third parties on the Service; content obtained from the Service; and unauthorized access, use or modification of your transmissions or content. This is the case whether it is based on warranty, contract, tort (including negligence) or any other legal theory, and whether or not we have been advised of the possibility of such damages, even if the remedies set out in this document have failed of their original purpose.",
+    "h9": "5. Disclaimer",
+    "p9": "Your use of the Service is at your own risk. The Service is provided without warranties of any kind, whether express or implied; including warranties of merchantability, fitness for a particular purpose, non-infringement or trouble-free operation.<br/>Mobideca Lukasz Kurant does not provide continuous, secure access to the Service at any particular time or location. Nor does Mobideca Lukasz Kurant warrant that any errors or malfunctions will be corrected, or that the Service is free of viruses or other potentially harmful elements, or that the results of using the Service will meet your expectations.",
+    "h10": "6. Summary",
+    "p10": "We reserve the right to modify or replace these Terms at our discretion at any time. In the event of a material change, we will endeavour to provide at least 30 days' notice prior to the introduction of the new terms. The assessment of what constitutes a material change is at our sole discretion.<br />By continuing to use our Service after the changes have been implemented, you agree to accept the changed terms. If you do not agree to the new terms, you must discontinue use of the Service."
+  }
 }
