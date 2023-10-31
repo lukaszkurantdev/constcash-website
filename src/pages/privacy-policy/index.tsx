@@ -19,7 +19,7 @@ export default function PrivacyPolicy() {
   return (
     <div className={styles.mainContainer}>
       <Head>
-        <title>{t("headTitle")}</title>
+        <title>{t("policyTitle")}</title>
       </Head>
 
       <div className={styles.container}>
@@ -39,61 +39,10 @@ export default function PrivacyPolicy() {
             weight="bold"
             className={styles.title}
           >
-            {t("title")}
-          </Typography>
-
-          <Typography variant="h2" fontSize={30}>
             {t("policyTitle")}
           </Typography>
 
           <Typography opacity>{ReactHtmlParser(t("description"))}</Typography>
-
-          <Typography variant="h2" fontSize={30}>
-            {t("termsTitle")}
-          </Typography>
-
-          <Typography opacity>{ReactHtmlParser(t("rules.p1"))}</Typography>
-          <Typography variant="h2" weight="bold">
-            {t("rules.h2")}
-          </Typography>
-          <Typography opacity>{ReactHtmlParser(t("rules.p2"))}</Typography>
-          <Typography variant="h3" weight="bold">
-            {t("rules.h3")}
-          </Typography>
-          <Typography opacity>{ReactHtmlParser(t("rules.p3"))}</Typography>
-
-          <Typography variant="h3" weight="bold">
-            {t("rules.h4")}
-          </Typography>
-          <Typography opacity>{ReactHtmlParser(t("rules.p4"))}</Typography>
-
-          <Typography variant="h3">{t("rules.h5")}</Typography>
-          <Typography opacity>{ReactHtmlParser(t("rules.p5"))}</Typography>
-
-          <Typography variant="h2" weight="bold">
-            {t("rules.h6")}
-          </Typography>
-          <Typography opacity>{ReactHtmlParser(t("rules.p6"))}</Typography>
-
-          <Typography variant="h2" weight="bold">
-            {t("rules.h7")}
-          </Typography>
-          <Typography opacity>{ReactHtmlParser(t("rules.p7"))}</Typography>
-
-          <Typography variant="h2" weight="bold">
-            {t("rules.h8")}
-          </Typography>
-          <Typography opacity>{ReactHtmlParser(t("rules.p8"))}</Typography>
-
-          <Typography variant="h2" weight="bold">
-            {t("rules.h9")}
-          </Typography>
-          <Typography opacity>{ReactHtmlParser(t("rules.p9"))}</Typography>
-
-          <Typography variant="h2" weight="bold">
-            {t("rules.h10")}
-          </Typography>
-          <Typography opacity>{ReactHtmlParser(t("rules.p10"))}</Typography>
 
           <Particle1 />
         </div>

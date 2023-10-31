@@ -2,8 +2,8 @@
   "headTitle": "Terms & Privacy policy – ConstCash",
   "title": "Terms & Privacy policy",
   "policyTitle": "Privacy policy",
-  "description": "Your data is only yours. We do not collect any data in the application. All data is saved locally on your device, if you want you can create a backup of data and put it where you want. Only you can manage your data. We do not have access to your device's features. We collect only anonymous (analytical and crash) data of app usage.",
-  "termsTitle": "Terms and Conditions",
+  "description": "Your data is only yours. We do not collect any data in the application. All data is saved locally on your device, if you want you can create a backup of data and put it where you want. Only you can manage your data. We do not have access to your device's features. We collect only anonymous (analytical and crash) data of app usage.<br /><br />",
+  "termsTitle": "Terms of Use",
   "rules": {
     "p1": "These Terms and Conditions (\"Terms\", \"Terms and Conditions\") govern your relationship with the ConstCash mobile application (the \"Service\") operated by Mobideca Lukasz Kurant (\"we\", \"us\" or \"our\").<br /><br />Your access to and use of the Service is subject to your acceptance of and compliance with these Terms. These Terms apply to all users and other entities using or accessing the Service. By accessing or using the Service, you agree to be absolutely bound by these Terms. If you do not agree to any of the Terms, you are not entitled to use the Service.",
     "h2": "1. Payment",
